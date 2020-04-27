@@ -2,6 +2,42 @@
   box-sizing: border-box;
 }
 
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 body {
   margin: 0;
   font-family: "Lucida Grande";
@@ -24,7 +60,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(https://drive.google.com/drive/u/1/folders/12ciGGRN2VwVpn88Ej4V5MLDfNKIaaruW);
   background-size: cover;
   color: white;
   text-align: center;
@@ -81,41 +117,7 @@ a {
   margin-right: 5px;
 }
 
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
 
 /* Tambahkan CSS untuk menu-icon */
  .menu-icon {
@@ -149,7 +151,7 @@ header {
 
 .lesson {
   float: left;
-  width: 25%;
+  width: 33%;
 }
 
 .lesson-icon {
@@ -161,6 +163,11 @@ header {
   top: 44%;
   width: 100%;
   color: white;
+}
+
+.name-list h5 {
+  position: absolute;
+  padding-bottom:10px;
 }
 
 .text-contents {
